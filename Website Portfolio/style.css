@@ -1,0 +1,189 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Amaranth', sans-serif !important;
+    font-size: larger;
+    background: #11c8e8!important;
+    /* background: linear-gradient(to right, #005c97, #363795); */
+    /* background: linear-gradient(to right, #000046, #1cb5e0); */
+    color: #000046!important;
+}
+/* nav  */
+.navbar-brand{
+    color: #000046!important;
+    font-size: 200%!important;
+}
+.nav-link{
+    color: #000046!important;
+}
+.navbar-link:hover{
+    border-bottom: goldenrod!important;
+}
+/* home section */
+#home{
+    height: 80vh;
+}
+.right{
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.left{
+    margin-top: 15%;
+    width: 50%;
+}
+/* about me */
+#about-me{
+    height: 80vh;  
+}
+.this-is-me h1{
+    padding-bottom: 5px;
+}
+.cv{
+    color: white!important;
+    background: #1e1f47!important;
+    border: none;
+    border-radius: 50px!important;
+    padding: 10px 15px;
+}
+.this{
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+}
+.this-is-me{
+    margin-top: 10%;
+    width: 50%;
+    line-height: 25px;  
+}
+
+/* xperience */
+.xperience{
+    padding-top: 10px;
+   
+}
+.xperience h2{
+    text-align: center;
+    color: #fcfcfc;
+}
+.xperience h4{
+color: darkmagenta;
+}
+/* skills */
+.container1 h2{
+    text-align: center;
+    color: #fcfcfc;
+}
+.my-skills{
+    height: 60vh;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.left-side{
+    width: 50%;
+    padding-right:5px ;
+}
+.right-side{
+    width: 50%;
+    padding-left: 5px;
+}
+/* portfolio */
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+    width: 40%;
+}
+.wrap h2{
+    padding-top: 10px;
+    text-align: center;
+}
+/* form */
+.me1{
+    height: 50%;
+    padding-top: 20px;
+}
+#contact-me h2{
+    text-align: center;
+    /* height: 100vh; */
+}
+.contact h2{
+    padding-bottom: 5px;
+}
+.contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.me{
+    width: 50px;
+    padding-top: 20px;
+}
+.btn-primary{
+    color: white!important;
+    background: #1e1f47!important;
+    border: none;
+    border-radius: 50px!important;
+    padding: 10px 15px;
+}
+.container h2{
+    color: #fcfcfc;
+}
+/*  */
+.contact1{
+    width: 50%;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.fa-facebook, .fa-linkedin, .fa-instagram, .fa-twitter, .fa-github{
+    border-radius: 50%;
+    border: 2px solid #fcfcfc;
+    padding: 7px;
+    color: white;
+    margin-right: 7px;
+    cursor: grabbing;
+    background-color: black;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hng{
+    width: 40px;
+}
+/* back up */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red!important;
+    color: white!important;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+}
